@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <div class="menu-close dark-overlay hidden"> </div>
     <header class="header">
         <div class="menu container">
             <div class="headerLeft">
@@ -21,7 +22,7 @@
             </div>
             <div class="headerRight">
                 <nav class="nav">
-                    <img src="img/burger-menu.png" alt="">
+                    <img class="burger-menu__btn" src="img/burger-menu.png" alt="">
                     <img class="menu-profile" src="img/profile.png" alt="">
                     <div>
 
@@ -33,6 +34,48 @@
         </div>
     </header>
     <main>
+        <div class="menu-active hidden">
+            <div class="container__menu">
+                <h4 class="menu-heading">MENU</h4>
+                <div class="menu-man">
+                    <h5 class="menu-text">MAN</h5>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="#">Accesories</a>
+                            <a href="#">Bags</a>
+                            <a href="#">Denim</a>
+                            <a href="#">T-Shirts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-woman">
+                    <h5 class="menu-text">WOMAN</h5>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="#">Accesories</a>
+                            <a href="#">Jackets & Coats</a>
+                            <a href="#">Polos</a>
+                            <a href="#">T-Shirts</a>
+                            <a href="#">Shirts</a>
+                            <a href="#">Bags</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-kids">
+                    <h5 class="menu-text">KIDS</h5>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="#">Accesories</a>
+                            <a href="#">Jackets & Coats</a>
+                            <a href="#">Polos</a>
+                            <a href="#">T-Shirts</a>
+                            <a href="#">Shirts</a>
+                            <a href="#">Bags</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="main">
                 <img src="img/mainMan.png" class="mainPic" alt="">
@@ -196,6 +239,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
