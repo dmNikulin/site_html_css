@@ -77,9 +77,83 @@
             font-weight: 900;
         }
         
+        h4 {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+        }
+        
         .h1__subtitle {
             font-size: 32px;
             font-weight: 700;
+        }
+        
+        .hidden {
+            visibility: hidden;
+        }
+        
+        .dark-overlay {
+            position: fixed;
+            z-index: 9;
+            width: 100%;
+            min-height: 100vh;
+            height: auto;
+            background: linear-gradient(rgba(33, 22, 22, 0.7), rgba(33, 22, 22, 0.7));
+        }
+        
+        .menu-active {
+            position: sticky;
+            float: right;
+            z-index: 10;
+            width: 235px;
+            background-color: white;
+            box-shadow: -6px 4px 35px #a0a0a079;
+        }
+        
+        .container__menu {
+            margin-top: 33px;
+            margin-left: 33px;
+        }
+        
+        .menu-man,
+        .menu-woman,
+        .menu-kids {
+            margin-top: 20px;
+        }
+        
+        .menu-kids {
+            padding-bottom: 20px;
+        }
+        
+        .menu-text {
+            color: #F16D7F;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+        }
+        
+        .menu-list a:hover {
+            text-decoration: underline;
+        }
+        
+        .menu-list {
+            list-style: none;
+            margin-top: 12px;
+            margin-left: 21px;
+        }
+        
+        .menu-list li {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .menu-list a {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            color: #6F6E6E;
+            ;
         }
         
         .fashion {
